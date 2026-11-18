@@ -1,0 +1,21 @@
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "react-native/react-native": true,
+    "jest/globals": true
+  },
+  "plugins": ["react", "react-native", "jest"],
+  "extends": ["plugin:react/recommended"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  }
+}
