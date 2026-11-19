@@ -17,6 +17,11 @@ scanner (Projects → "Scan QR code"):
 
 Published update: [EAS dashboard](https://expo.dev/accounts/nerovkhas-team/projects/rate-repository-app/updates/5e92e137-495e-40bb-89c8-6a613592d3c1)
 
+> **Note:** if scanning on a physical device fails with
+> `java.io.IOException: Failed to download remote update`, retry on
+> another network or open the same QR code in an Android/iOS emulator —
+> a known Expo Go quirk on some devices/networks.
+
 ## Run
 
 ```bash
