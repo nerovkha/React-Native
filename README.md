@@ -12,8 +12,8 @@ pre-deployed Rate Repository API, so no local setup is needed.
 
 ![QR code](./qrcode.png)
 
-Direct links: [iOS](https://u.expo.dev/update/01a1f4b2-1f62-71ef-b7e1-1387a753391b) ·
-[Android](https://u.expo.dev/update/01a1f4b2-1f62-741a-adfb-2d13c5ffed9d)
+Direct links: [iOS](https://u.expo.dev/update/01a1f4c9-3ad8-7aed-8acb-975ac3c37cee) ·
+[Android](https://u.expo.dev/update/01a1f4c9-3ad8-7a6d-bc4c-311e129d3f42)
 
 ## Run
 
