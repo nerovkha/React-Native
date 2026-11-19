@@ -4,6 +4,17 @@ Exercises for [Full Stack Open](https://fullstackopen.com) part 10
 (CSM14111): the rate-repository-app — React Native with Expo, React
 Navigation, forms, Apollo Client and authentication.
 
+## Try the app
+
+Scan the QR code with the Expo Go app to run the published version of
+this app. It is published with EAS Update and uses the course's
+pre-deployed Rate Repository API, so no local setup is needed.
+
+![QR code](./qrcode.png)
+
+Direct links: [iOS](https://u.expo.dev/update/01a1f4b2-1f62-71ef-b7e1-1387a753391b) ·
+[Android](https://u.expo.dev/update/01a1f4b2-1f62-741a-adfb-2d13c5ffed9d)
+
 ## Run
 
 ```bash
