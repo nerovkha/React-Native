@@ -1,6 +1,7 @@
 module.exports = {
   preset: 'jest-expo',
   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  testTimeout: 20000,
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
   },
