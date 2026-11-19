@@ -6,14 +6,16 @@ Navigation, forms, Apollo Client and authentication.
 
 ## Try the app
 
-Scan the QR code with the Expo Go app to run the published version of
-this app. It is published with EAS Update and uses the course's
-pre-deployed Rate Repository API, so no local setup is needed.
+The app is published with EAS Update and uses the course's pre-deployed
+Rate Repository API, so no local setup is needed. Open the Expo Go app
+on your phone and scan the QR code for your platform with its QR
+scanner (Projects → "Scan QR code"):
 
-![QR code](./qrcode.png)
+| Android | iOS |
+| :-: | :-: |
+| ![QR code for Android](./qrcode.png) | ![QR code for iOS](./qrcode-ios.png) |
 
-Direct links: [iOS](https://u.expo.dev/update/01a1f4c9-3ad8-7aed-8acb-975ac3c37cee) ·
-[Android](https://u.expo.dev/update/01a1f4c9-3ad8-7a6d-bc4c-311e129d3f42)
+Published update: [EAS dashboard](https://expo.dev/accounts/nerovkhas-team/projects/rate-repository-app/updates/5e92e137-495e-40bb-89c8-6a613592d3c1)
 
 ## Run
 
