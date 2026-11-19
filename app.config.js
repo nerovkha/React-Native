@@ -25,8 +25,14 @@ export default {
   web: {
     favicon: './assets/favicon.png',
   },
+  runtimeVersion: {
+    policy: 'appVersion',
+  },
   extra: {
     env: 'development',
-    apolloUri: process.env.APOLLO_URI || 'http://localhost:4000',
+    apolloUri:
+      process.env.EXPO_PUBLIC_APOLLO_URI ||
+      process.env.APOLLO_URI ||
+      'http://localhost:4000',
   },
 };

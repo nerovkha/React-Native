@@ -2,7 +2,8 @@ import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 import Constants from 'expo-constants';
 
-const { apolloUri } = Constants.expoConfig.extra;
+const apolloUri =
+  process.env.EXPO_PUBLIC_APOLLO_URI || Constants.expoConfig.extra.apolloUri;
 
 const httpLink = createHttpLink({
   uri: apolloUri,
