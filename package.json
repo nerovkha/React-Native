@@ -17,6 +17,7 @@
     "dotenv": "^18.0.10",
     "expo": "~50.0.17",
     "expo-status-bar": "~1.11.1",
+    "expo-updates": "~0.24.13",
     "formik": "^2.4.9",
     "graphql": "^16.9.0",
     "react": "18.2.0",
