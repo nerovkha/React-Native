@@ -1,6 +1,7 @@
 module.exports = {
   preset: 'jest-expo',
   setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  // CI runners are slow enough that form tests can exceed the 5s default
   testTimeout: 20000,
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
